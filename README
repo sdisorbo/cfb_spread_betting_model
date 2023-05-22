@@ -1,0 +1,7 @@
+This is a project where I created an xgBoost model to predict the spread of college football games using various metrics from the season. It trains on 4 seasons (2017-2020), and I test 
+it on one season (2022). I wrote an article about the model, which I call ALICE, at this link https://mfootballanalytics.com/2022/08/26/making-a-cfb-point-spread-betting-model/. To 
+summarize the testing results, I wrote in the posted article: ALICE correctly made "56.4% of its 663 bets, which beats the market by a whopping 4%! Constructing a 95% confidence 
+interval gives us even better news, as our interval states that we are 95% confident that this model has a bet accuracy between 52.6% and 60.2%! While this is great news, there is one 
+glaring thing to note–this is ALICE’s performance on predicting away team’s to cover rather than not (ALICE always bases its bet on whether it thinks the away team will cover or not). 
+Of the 335 games ALICE predicted the away team would cover, it got 65.4% correct. On the flip side, of the 328 games ALICE predicted the away team would not cover it only got 47.3% 
+correct."
